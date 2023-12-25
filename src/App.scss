@@ -1,0 +1,29 @@
+.div{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(206, 62, 62);
+    gap:10px;
+    & li {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      margin: 10px 0;
+      border: 2px solid rgb(206, 84, 84);
+      border-radius: 5px;
+      & button {
+        display: block;
+        align-items: center;
+        width: 130px;
+        border-radius: 5px;
+        background-color: rgb(189, 124, 124);
+        padding: 8px;
+        margin: 20px;
+      }
+    }
+  }
+  .Products, .Basket{
+    border: 2px solid rgb(178, 105, 105);
+    border-radius: 8px;
+    width: 500px;
+    margin: 10px;
+  }
